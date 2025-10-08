@@ -1,0 +1,1 @@
+This repository contains the Python code accompanying “From Self-Orientation to Social Orientation: A Behavioral Extension of Schelling’s Segregation Model,” a manuscript under review at Scientific Reports.
