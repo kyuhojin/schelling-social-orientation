@@ -22,8 +22,8 @@ class Config:
     threshold: float = 0.5              # satisfaction threshold
     neighborhood: str = "moore"         # "moore" or "vonneumann"
     wrap: bool = True                   # torus boundary
-    reps: int = 100                     # simulations per strategy per vacancy ratio
-    cores: int = 16                     # up to 16
+    reps: int = 10000                   # simulations per strategy per vacancy ratio
+    cores: int = 32                     # up to 16
     max_steps: int = 10_000             # safety cap
     initial_mix: Tuple[float, float] = (0.5, 0.5)  # share of +1 and -1 among occupied
     seed: int = 20250930                # master seed
@@ -501,3 +501,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
